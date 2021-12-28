@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.ttt {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.ttt .video {
+    width: 100vw;
+    height: 700px;;
+    background: dodgerblue;
+}
+.ttt .video video {
+    width: 100%;
+    height: 100%;
+}
+.intro-btn {
+    width: 60px;
+    height: 110px;
+    /*background: deepskyblue;*/
+    position: absolute;
+    top: 50vh;
+}
+.intro-btn .fas {
+    font-size: 6em;
+    /*font-weight: normal;*/
+    /*text-align: center;*/
+    line-height: 1.2em;
+    /*color: grey;*/
+}
+.intro-btn.prev {
+    left: 10vh;
+    cursor: pointer;
+}
+.intro-btn.next {
+    right: 10vh;
+    cursor: pointer;
+}
